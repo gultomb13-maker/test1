@@ -1,0 +1,20 @@
+// Import Bootstrap
+$primary: #6f42c1; // Warna ungu biar keren
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Kustomisasi tambahan
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; // Biar foto tidak gepeng
+    border: 5px solid #6f42c1;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+}
